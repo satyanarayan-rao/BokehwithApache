@@ -32,9 +32,10 @@ http://127.0.0.1:8080/BokehwithApache
 ## Apache End 
 
 + Here I am assuming the following: 
-- You don't have any public domain, basically you are working on localhost. 
-- Apache is listening over two ports, 80 and 8080
-- If you are naming any virtual host (www.abc.me), it has to be resolved in your /etc/hosts file 
+
+    - You don't have any public domain, basically you are working on localhost. 
+    - Apache is listening over two ports, 80 and 8080
+    - If you are naming any virtual host (www.abc.me), it has to be resolved in your /etc/hosts file 
 
 
 You basically have to configure a virtual host, and Apache has a very easy way to do it. 
